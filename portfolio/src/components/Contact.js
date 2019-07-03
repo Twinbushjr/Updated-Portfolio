@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Contact extends Component {
   render = () => {
     return (
-          <div id="main-container" className="container">
+          <div id="main-container" className="container col-lg-1 col-sm -12">
               <section className="main-section">
                   <h1>Contact</h1><br></br>
 
@@ -20,11 +20,11 @@ class Contact extends Component {
                   <form id="contact-form">
                       <ul>
                           <li>
-                            <label for="name">Name</label>
+                            <label htmlFor="name">Name</label>
                             <input type="text" name="name" id="name" placeholder="John Smith" required="required"></input>
                           </li>
                           <li>
-                            <label for="email">Email</label>
+                            <label htmlFor="email">Email</label>
                             <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required"></input>
                           </li>
                           <li>

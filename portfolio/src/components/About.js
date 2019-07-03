@@ -4,11 +4,11 @@ import BPP from '../bpp.jpg';
 class About extends Component {
   render = () => {
     return (
-      <div id="main-container" className="container" >
-        <section className="main-section">
+      <div id="main-container" className="container col-lg-1 col-sm -12" >
+        <section className="main-section col-lg-1 col-sm -12">
             <h1>About Me</h1>
 
-            <img className="BPP" src={BPP} hieght="350" width="200" alt="BPP" />
+            <img className="BPP col-lg-1 col-sm -12" src={BPP} hieght="350" width="200" alt="BPP" />
             <p>Hello! My name is Thomas Winbush, I was born in Riverside County
                 on January 23rd in 1995. I grew up in Moreno valley California most 
                 of my life and also in San Bernardino. My hobbies are working out, 

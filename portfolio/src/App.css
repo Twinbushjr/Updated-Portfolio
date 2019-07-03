@@ -108,9 +108,6 @@ h2, h3 {
   float: right;
 }
 
-i {
-  float: left;
-}
 
 li {
   float: left;
@@ -155,7 +152,7 @@ li Link:first-child {
 
 .auth-image {
   width: 200px;
-  height: auto;
+  height: 274px;
   margin-top: 10px;
   float: left;
   margin-right: 25px;

@@ -9,8 +9,8 @@ import Train from '../train.jpg';
 class Portfolio extends Component {
   render = () => {
     return (
-        <div id="main-container" className="container">
-            <section className="main-section">
+        <div id="main-container" className="container col-lg-1 col-sm -12">
+            <section className="main-section col-lg-1 col-sm -12">
                 <h1>Portfolio</h1>
 
                 <div className="work">
@@ -19,19 +19,19 @@ class Portfolio extends Component {
                         <h3>Giftastic</h3>
                     </a>
                 </div>
-                <div className="work">
+                <div className="work col-lg-1 col-sm -12">
                     <a href="https://1curtislee.github.io/Currency-Converter/">
                         <img src={Currency} className="auth-image" alt="CurrencyConverter"></img>
                         <h3>Currency Converter</h3>
                     </a>
                 </div>
-                <div className="work">
+                <div className="work col-lg-1 col-sm -12">
                     <a href="https://psychic-app.herokuapp.com/">
                         <img src={Psychic} className="auth-image" alt="ThePsychicGame"></img>
                         <h3>Psychic Game</h3> 
                     </a>
                 </div>
-                <div className="work">
+                <div className="work col-lg-1 col-sm -12">
                     <a href="https://thomas-the-train.herokuapp.com/">
                         <img src={Train} className="auth-image" alt="TrainScheduler"></img>
                         <h3>Train Scheduler</h3>

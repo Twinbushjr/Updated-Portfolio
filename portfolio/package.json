@@ -2,12 +2,18 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.4.1",
+    "node": "v10.14.2"
+  },
   "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
-    "react-bootstrap": "^1.0.0-beta.9"
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

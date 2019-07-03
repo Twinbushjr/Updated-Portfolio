@@ -13,7 +13,7 @@ class Nav extends Component {
         <div>
         <nav className="navbar navbar-expand-lg navbar fixed-top">
         <Link to="/" className="navbar-brand">
-        <i class="fa fa-empire fa-3x">Welcome!</i>
+        <i className="fa fa-empire fa-3x">Welcome!</i>
         </Link>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
