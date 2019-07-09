@@ -1,3 +1,11 @@
+// Create Mongo DataBase to send contact information too
+// Clean up Navbar and add search bar
+// Fix responsiveness of web pages
+// Update themes and colors on web page
+// Change Profile picture on about page
+// Work on deveopler resume and update it on portfolio
+
+
 const express = require("express");
 const app = express();
 const path = require("path");
